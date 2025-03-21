@@ -1,0 +1,8 @@
+name: hello-world-wokflowPR
+on: pull_request
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "Hello World! pull request"
